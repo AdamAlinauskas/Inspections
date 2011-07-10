@@ -1,0 +1,25 @@
+﻿@using Inspections.Models
+@model InspectionListingDto
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Inspections</title>
+    </head>
+    <body>
+        <div>
+            <h1>Inspections</h1>
+            <ul>
+            @foreach (var item in Model.Inspections)
+            {
+                <li>@item.Name</li>
+            }
+            </ul>
+        </div>
+    </body>
+</html>
