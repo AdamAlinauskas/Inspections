@@ -2,7 +2,7 @@ bin/
 obj/
 Bin/
 App_Data/
-_ReSharper.Scrum/
 *.suo
 *.user
-
+TestResults/
+_ReSharper.Inspections/
